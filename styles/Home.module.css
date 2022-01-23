@@ -1,5 +1,19 @@
-.container {
-  padding: 0 2rem;
+.container-chessboard {
+  min-height: 100vh;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh
+}
+
+.container-mouse-tracker {
+  padding: 0px;
+}
+
+.container-counter {
+  padding: 0px;
 }
 
 .main {

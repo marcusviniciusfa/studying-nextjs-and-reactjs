@@ -1,0 +1,10 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+  color: #fff;
+  height: 100vh;
+  font-size: 28px;
+}
