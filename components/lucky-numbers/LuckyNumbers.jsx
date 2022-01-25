@@ -19,7 +19,7 @@ function renderNumbers(numbers = []) {
 
 export default function LuckyNumbers() {
   const [amountNumbers, setAmountNumbers] = useState(6)
-  const [numbers, setNumbers] = useState(generateLuckyNumbers(amountNumbers))
+  const [numbers, setNumbers] = useState([])
   return (
     <div style={{
       display: "flex",
