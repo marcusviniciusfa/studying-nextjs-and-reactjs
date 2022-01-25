@@ -2,10 +2,12 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const baseUrl = 'http://localhost:3000'
   const examples = [
-    <a href="http://localhost:3000/chessboard">Chessboard</a>,
-    <a href="http://localhost:3000/counter">Counter</a>,
-    <a href="http://localhost:3000/mouse-tracker">Mouse Tracker</a>
+    <a href={`${baseUrl}/chessboard`}>Chessboard</a>,
+    <a href={`${baseUrl}/counter`}>Counter</a>,
+    <a href={`${baseUrl}/mouse-tracker`}>Mouse Tracker</a>,
+    <a href={`${baseUrl}/lucky-numbers`}>Lucky Numbers</a>
   ]
   return (
     <div className={styles.container} style={{backgroundColor: '#fff'}}>
