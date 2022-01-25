@@ -9,6 +9,7 @@ Projetos simples feitos à partir [deste curso](https://www.udemy.com/course/nex
 - [x] Tabuleiro de Xadrez
 - [x] Contador
 - [x] Rastreador de Mouse
+- [x] Números da Sorte
 
 ### Rodando
 
